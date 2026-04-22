@@ -1,0 +1,10 @@
+09:53:28.444 [main] INFO  base.BaseClass.setup(BaseClass.java:40)oggger - ===== Test Execution Started =====
+09:53:49.016 [main] INFO  tests.TC001_Login.login_logic(TC001_Login.java:15)oggger - Starting login process
+09:53:49.062 [main] INFO  pages.LoginPage.enterUsername(LoginPage.java:34)oggger - Entering username: Admin
+10:06:19.909 [main] INFO  base.BaseClass.setup(BaseClass.java:40)oggger - ===== Test Execution Started =====
+10:07:03.894 [main] INFO  tests.TC001_Login.login_logic(TC001_Login.java:15)oggger - Starting login process
+10:07:03.937 [main] INFO  pages.LoginPage.enterUsername(LoginPage.java:34)oggger - Entering username: Admin
+10:07:06.630 [main] INFO  pages.LoginPage.enterPassword(LoginPage.java:40)oggger - Entering password
+10:07:06.806 [main] INFO  pages.LoginPage.clickLogin(LoginPage.java:46)oggger - Clicking Login button
+10:07:15.616 [main] INFO  tests.TC001_Login.login_logic(TC001_Login.java:23)oggger - Login action completed
+10:07:16.527 [main] INFO  base.BaseClass.setup(BaseClass.java:40)oggger - ===== Test Execution Started =====
