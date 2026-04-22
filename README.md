@@ -1,120 +1,126 @@
-# Selenium Java Hybrid Framework
-A scalable Selenium automation framework built using Java, TestNG, Maven, and Page Object Model. The framework is designed to support maintainable, reusable, and enterprise-ready UI automation.
-________________________________________
-## Project Overview
-This framework demonstrates how to build a robust Selenium automation solution using industry-standard design principles and reusable components.
-It includes:
-*  Selenium WebDriver integration
-*  Java-based automation framework
-*  TestNG for test execution and reporting
-*  Maven for dependency management
-*  Page Object Model (POM)
-*  Screenshot capture on failure
-*  Retry mechanism for flaky tests
-*  Configurable test execution
-*  Cross-browser support
-*  Reporting and logging support
-*  CI/CD-ready project structure
-________________________________________
-## Key Highlights
-* Designed a scalable Selenium Java automation framework from scratch
-* Implemented Page Object Model and reusable utility classes
-* Integrated TestNG, Maven, Log4j, and Extent Reports
-* Added screenshot capture, retry logic, and reporting
-* Built a maintainable framework structure for UI automation
-* Added configurable test execution using properties files
-* Created reusable components for scalable automation testing________________________________________
-## Tech Stack
-* Java
-* Selenium WebDriver
-* TestNG
-* Maven
-* WebDriverManager
-* Apache POI
-* Log4j
-* Extent Reports________________________________________
-## Framework Features
-* Docker integration
-* GitHub Actions integration
-* Jenkins pipeline integration
-* API automation integration
-* Database validation support
-* Cloud execution using Selenium Grid
-* BrowserStack integration
-* Performance test integration________________________________________
-## Project Structure
-selenium-java-hybrid-framework
-│
-├── src
-│   ├── main
-│   │   └── java
-│   │       ├── base
-│   │       ├── pages
-│   │       ├── utilities
-│   │       └── tests
-│
-├── src/test/resources
-│   ├── config.properties
-│     └── log4j2.xml
-│
-├── reports
-├── screenshots
-├── testData
-├── pom.xml
-├── testng.xml
-├── README.md
-________________________________________
-## Prerequisites
-Before running the framework, make sure the following are installed:
-*  Java JDK 11 or above
-*  Maven
-*  IDE such as IntelliJ IDEA or Eclipse
-*  Chrome browser
-*  Git
-________________________________________
-## Installation Steps
-1.	Clone the repository
-git clone https://github.com/your-username/selenium-java-hybrid-framework.git
-2.	Navigate to the project folder
-cd selenium-java-hybrid-framework
-3.	Install dependencies
-mvn clean install
-________________________________________
-## How to Run Tests
-Run all tests using Maven:
-mvn test
-Run specific TestNG suite:
-mvn test -DsuiteXmlFile=testng.xml
-________________________________________
-## Reporting
-The framework supports:
-*  TestNG default reports
-*  Extent Reports
-*  Console logs
-*  Failure screenshots
-*  Execution summary
-Generated reports can be found inside:
-/reports
-/screenshots
-/test-output
-________________________________________
-## Sample Scenarios Covered
-*  Login functionality
-*  Directory functionality
-*  Data-driven login validation
-*  Negative test scenarios
-*  Cross-browser execution
-________________________________________
-## Future Enhancements
-*  Docker integration
-*  GitHub Actions integration
-*  Jenkins pipeline integration
-*  API automation integration
-*  Database validation support
-*  Cloud execution using Selenium Grid
-*  BrowserStack integration
-*  Performance test integration
-________________________________________
-## Author
-Senior QA Manager | Automation | Selenium | Java | TestNG | Salesforce QA | Enterprise Testing
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Selenium%20Framework&fontSize=40&fontColor=ffffff"/>
+</p>
+# 🚀 Selenium Java Hybrid Automation Framework
 
+A scalable and maintainable **test automation framework** built using **Java, Selenium WebDriver, TestNG, and Maven**, designed for enterprise-level UI automation.
+
+---
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![TestNG](https://img.shields.io/badge/TestNG-red?style=for-the-badge)
+![Maven](https://img.shields.io/badge/Maven-blue?style=for-the-badge)
+
+## 📌 Key Highlights
+
+✔️ Hybrid Framework (POM + Utilities + Data-Driven)
+✔️ Clean and maintainable structure
+✔️ Supports scalable regression execution
+✔️ Designed with real-world QA scenarios
+✔️ Easy integration with CI/CD tools
+
+---
+
+## 🏗️ Tech Stack
+
+* **Language:** Java
+* **Automation Tool:** Selenium WebDriver
+* **Test Framework:** TestNG
+* **Build Tool:** Maven
+* **Design Pattern:** Page Object Model (POM)
+* **Reporting:** TestNG Reports
+
+---
+
+## 📂 Project Structure
+
+```bash
+src
+ ├── main
+ │   ├── java
+ │   │   ├── pages          # Page Object Classes
+ │   │   ├── utils          # Reusable utilities
+ │   │
+ ├── test
+ │   ├── java
+ │   │   ├── tests          # Test Classes
+ │   │   ├── base           # Base setup (driver, config)
+ │
+ ├── resources
+ │   ├── config.properties  # Environment configs
+ │
+testng.xml                  # Test execution file
+pom.xml                     # Dependencies
+```
+
+---
+
+## ⚙️ Features
+
+🔥 Page Object Model implementation
+🔥 Reusable utility methods
+🔥 Config-driven execution
+🔥 Cross-browser support (extendable)
+🔥 Data-driven testing (extendable)
+🔥 Clean separation of concerns
+
+---
+
+## ▶️ How to Run the Framework
+
+### 🔹 1. Clone the repository
+
+```bash
+git clone https://github.com/Dishi-Gogia/selenium-java-hybrid-framework.git
+```
+
+### 🔹 2. Navigate to project
+
+```bash
+cd selenium-java-hybrid-framework
+```
+
+### 🔹 3. Run tests using Maven
+
+```bash
+mvn clean test
+```
+
+---
+
+## 📊 Sample Test Flow
+
+1. Launch browser
+2. Navigate to application
+3. Perform actions using Page Objects
+4. Validate results
+5. Generate report
+
+---
+
+## 📸 Sample Output (Add Screenshot Here)
+
+👉 Add execution screenshots / reports for better visibility
+
+---
+
+## 🔄 Future Enhancements
+
+🚀 Jenkins / CI-CD integration
+🚀 Allure / Extent Reports
+🚀 Parallel execution
+🚀 Docker integration
+🚀 API + UI combined framework
+
+---
+
+## 👩‍💻 Author
+
+**Dishi Gogia**
+Senior QA Manager | Automation | Salesforce | CPQ
+
+🔗 LinkedIn: https://www.linkedin.com/in/dishi-gogia
+
+---
+
+## ⭐ If you found this useful, give it a star!
